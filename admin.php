@@ -19,15 +19,22 @@ if (isset($_POST["cari"])) {
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Admin</title>
-    <link rel="stylesheet" href="style.css">
+    <met a charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Halaman Admin</title>
+        <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <a id="logout" href="logout.php">logout</a>
+    <div class="log" style="margin-top: 20px;">
+        <a id="logout" style="    padding: 5px;
+    background-color: black;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;" href="logout.php">logout</a>
+    </div>
 
     <h1>Data Mahasiswa</h1>
     <div class="yuk"><a href="tambah.php">Tambah data mahasiswa</a></div>

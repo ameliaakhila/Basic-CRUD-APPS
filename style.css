@@ -1,15 +1,32 @@
 * {
+    margin: 0;
+    padding: 0;
     text-align: center;
     list-style: none;
     background-color: lightblue;
 }
 
+.log {
+    margin-top: 20px;
+}
+.log:hover {
+    transform: rotate(2deg);
+}
 #logout {
+    padding: 5px;
     background-color: black;
+    border-radius: 20px;
+    border-color: white;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bolder;
-    animation: loncat 1.5s infinite;
+}
+#logout:hover {
+    background-color: gray;
+}
+
+h1 {
+    margin: 10px;
 }
 .h1 {
     background-color: black;
