@@ -60,7 +60,7 @@ if (isset($_POST["login"])) {
                 </li>
                 <br>
                 <label for="remember">Remember Me</label>
-                <input type="cekbox" name="remember" id="remember">
+                <input type="checkbox" name="remember" id="remember">
                 </li>
                 <li>
                     <button type="submit" name="login">Login</button>
